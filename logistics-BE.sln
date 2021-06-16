@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logistics-BE", "logistics-BE\logistics-BE.csproj", "{D59F5FB7-D5FD-4036-8638-A3D2EF3FA649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logistics-BE.Tests", "logistics-BE.Tests\logistics-BE.Tests.csproj", "{D007D705-4CE1-47E6-A84B-2570CD76FD67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61F7D818-222C-40B0-B120-2507325E8C6B}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D59F5FB7-D5FD-4036-8638-A3D2EF3FA649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59F5FB7-D5FD-4036-8638-A3D2EF3FA649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59F5FB7-D5FD-4036-8638-A3D2EF3FA649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59F5FB7-D5FD-4036-8638-A3D2EF3FA649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D007D705-4CE1-47E6-A84B-2570CD76FD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D007D705-4CE1-47E6-A84B-2570CD76FD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D007D705-4CE1-47E6-A84B-2570CD76FD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D007D705-4CE1-47E6-A84B-2570CD76FD67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BEDD098-D45A-4427-91FE-4E12138573F5}
+	EndGlobalSection
+EndGlobal

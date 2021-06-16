@@ -1,0 +1,19 @@
+version: '3.4'
+
+networks:
+  localdev:
+    name: localdev
+
+services:
+  logistics-backend:
+    image: ${DOCKER_REGISTRY-}logisticsbe
+    build:
+      context: .
+      dockerfile: logistics-BE/Dockerfile
+  logistics-cache:
+    image: redis
+  logistics-db:
+    image:
+  logistics-frontend:
+
+    
